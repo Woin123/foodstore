@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food website</title>
+    <link rel="stylesheet" href="./styless.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+
+    <nav class="navbar navbar-expand-lg pb-3">
+        <div class="container">
+          <a class="navbar-brand" href="http://127.0.0.1:5500/index.html"><img src="./imgs/logoo.png" class="img-fluid"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="http://127.0.0.1:5500/service.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://127.0.0.1:5500/blog.html">
+                    Review
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://127.0.0.1:5500/aboutus.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://127.0.0.1:5500/login.html">Log in</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="px-2 search" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn1 me-2 px-3" type="submit">Search</button>
+              <a href="http://127.0.0.1:5500/shoppingcart.html">
+                <span><i class='bi bi-bag-check'></i></span>
+            </a>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <section class="vh-100" style="background-color: #028a0f;">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+              <div class="card shadow-2-strong" style="border-radius: 1rem;">
+                <div class="card-body p-5 text-center">
+
+                 <div class="container">
+                  <h3 class="mb-2">Log in</h3>
+                  <div class="line mb-4"></div>
+                 </div>
+                  <div class="form-outline mb-4">
+                    <input type="email" id="typeEmailX-2" class="form-control form-control-lg" placeholder="Email"/>
+                  </div>
+      
+                  <div class="form-outline mb-4">
+                    <input type="password" id="typePasswordX-2" class="form-control form-control-lg" placeholder="Password"/>
+                  </div>
+      
+                  <!-- Checkbox -->
+                  <div class="form-check d-flex justify-content-start mb-4">
+                    <input class="form-check-input" type="checkbox" value="" id="form1Example3" />
+                    <label class="form-check-label" for="form1Example3"> Remember password </label>
+                  </div>
+      
+                  <button class="btn btn-primary btn-lg btn-block" type="submit">Login</button>
+
+
+                  <div class="d-flex justify-content-center my-3">
+                    <a href="http://127.0.0.1:5500/signup.html" class="link-primary">Don't have an account? Sign up here</a>
+                  </div>
+      
+                  <hr class="my-3">
+      
+                  <button class="btn btn-lg btn-block btn-primary" style="background-color: #dd4b39;"
+                    type="submit"><i class="bi bi-google"></i> Sign in with google</button>
+                  <button class="btn btn-lg btn-block btn-primary mb-2" style="background-color: #3b5998;"
+                    type="submit"><i class="bi bi-facebook"></i></i> Sign in with facebook</button>
+      
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    </body>
